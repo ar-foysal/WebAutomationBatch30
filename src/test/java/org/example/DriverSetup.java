@@ -15,6 +15,6 @@ public class DriverSetup {
 
     @AfterSuite
     public void closeBrowser(){
-        driver.close();
+        driver.quit();
     }
 }
